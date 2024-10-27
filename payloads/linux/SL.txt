@@ -15,6 +15,10 @@ DELAY 200
 ENTER
 DELAY 750
 
+REM  ### install the sl
+STRING sudo apt install sl
+STRING sudo dnf install sl
+STRING sudo pacman -S sl
 
 REM     ###     Launching the "sl" command
 STRING sl
